@@ -1,0 +1,16 @@
+$ORIGIN evddns.com.
+$TTL 86400
+@   IN SOA ns1.evddns.com. admin.evddns.com. (
+        2025090801 ; serial
+        1H
+        10M
+        1W
+        3H )
+    IN NS ns1.evddns.com.
+    IN NS ns2.evddns.com.
+
+ns1 IN A 103.67.198.23
+ns2 IN A 103.67.198.23
+
+; example host
+www IN A 103.67.198.23
